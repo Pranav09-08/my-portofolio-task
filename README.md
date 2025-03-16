@@ -28,11 +28,11 @@ This is a personal portfolio website showcasing my skills, projects, and experie
 ## 📖 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/Pranav09-08/my-portofolio-task.git
    ```
 2. Navigate to the project folder:
    ```bash
-   cd portfolio-website
+   cd my-portofolio-task
    ```
 3. Open `index.html` in your browser.
 
@@ -46,5 +46,7 @@ This is a personal portfolio website showcasing my skills, projects, and experie
    ```
 
 ## 📬 Contact
-For any queries, reach out via [your email] or [LinkedIn profile].
+For any queries, reach out via pranavmahale08@gmail.com 
+
+## Live Link : https://pranav09-08.github.io/my-portofolio-task/
 
