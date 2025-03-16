@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav Mahale - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header/Hero Section -->
+        <header class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Pranav Mahale</h1>
+                    <p>Full Stack Developer passionate about creating beautiful and functional web applications</p>
+                    <div class="social-links">
+                        <a href="https://github.com/Pranav09-08" target="_blank" aria-label="GitHub Profile">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pranav-mahale-b122aa258/" target="_blank"
+                            aria-label="LinkedIn Profile">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="mailto:pranavmahale08@gmail.com" aria-label="Email Contact">
+                            <i data-lucide="mail"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/Personal-pic.jpg" alt="Professional Portrait" loading="lazy">
+                </div>
+            </div>
+        </header>
+
+        <!-- Projects Section -->
+        <section class="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <!-- Course Attainment System -->
+                <div class="project-card">
+                    <img src="assets/course-attainment.png" alt="Course Attainment System Screenshot" loading="lazy">
+                    <div class="project-content">
+                        <h3>Course Attainment System</h3>
+                        <p>A web-based system to calculate teacher attainment based on semester targets, student marks,
+                            and predefined success criteria. Built using MySQL (TiDB), React, and Node.js.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Pranav09-08/teacher-attainment-system-frontend" target="_blank">
+                                <i data-lucide="github"></i>
+                                <span>View Code</span>
+                            </a>
+                            <a href="https://teacher-attainment-system-frontend.vercel.app/" target="_blank">
+                                <i data-lucide="external-link"></i>
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Emergency QR Code Alert System -->
+                <div class="project-card">
+                    <img src="assets/qrcode.png" alt="Emergency QR Code Alert System" loading="lazy">
+                    <div class="project-content">
+                        <h3>Emergency QR Code Alert System</h3>
+                        <p>A system that generates emergency QR codes containing crucial medical and contact
+                            information. Designed for quick access in critical situations. Built with Node.js, React,
+                            and MySQL.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Pranav09-08/emergency-qrcode-system-frontend" target="_blank">
+                                <i data-lucide="github"></i>
+                                <span>View Code</span>
+                            </a>
+                            <a href="https://emergency-qrcode-system-frontend.vercel.app/" target="_blank">
+                                <i data-lucide="external-link"></i>
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sahaakar Content System -->
+                <div class="project-card">
+                    <img src="assets/sahaakar.png" alt="Sahaakar Content System Screenshot" loading="lazy">
+                    <div class="project-content">
+                        <h3>Sahaakar Content System</h3>
+                        <p>A MERN-based platform that helps LinkedIn content writers manage, organize, and showcase
+                            their work for different firms. Built with React (Vite.js), Node.js, Express, and MongoDB.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://sakshikadam.vercel.app/" target="_blank">
+                                <i data-lucide="external-link"></i>
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <h2>Get in Touch</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© <span id="current-year"></span> Pranav Mahale. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
